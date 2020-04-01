@@ -7,9 +7,6 @@ main_folder = 'Download/'
 folder = 'example/'
 
 
-urls = []
-
-
 def read(file):
   with open(file, "r") as f:
     for line in f:
